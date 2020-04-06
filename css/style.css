@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-image: url("./images/1.jpg"); */
+  background: #114bfd;
+  /* background: url(); */
+}
+header {
+  text-align: center;
+}
+.container {
+  width: 60%;
+  margin: auto;
+  height: 60vh;
+  border: 2px solid black;
+  margin-top: 20vh;
+  position: relative;
+  background: rgb(240, 234, 234);
+  border-radius: 20px;
+  box-shadow: 2px 2px #888888;
+}
+
+.parent {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7vh;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.box1 {
+  border-right: 2px solid rgb(70, 111, 201);
+  width: 50%;
+  height: 50vh;
+  text-align: center;
+}
+
+.box1 h1 {
+  font-size: 3em;
+  font-family: "Courgette", cursive;
+  color: #114bfd;
+}
+
+.box1 img {
+  margin-top: vh;
+  position: relative;
+  height: 20vh;
+}
+
+.box1 form {
+  margin-top: 7vh;
+}
+
+.box1 label {
+  font-size: 1.5em;
+  font-family: "Courgette", cursive;
+  color: #114bfd;
+}
+
+.box1 input {
+  margin: 10px;
+  height: 30px;
+}
+.box1 form button {
+  margin-top: 5%;
+  height: 5vh;
+  width: 20%;
+  background: #114bfd;
+  color: white;
+  font-weight: bold;
+}
+
+.box2 {
+  border-left: 2px solid rgb(70, 111, 201);
+  width: 50%;
+  height: 50vh;
+  text-align: center;
+}
+
+.box2 img {
+  margin-top: 10%;
+  position: relative;
+  height: 10vh;
+}
+
+.box2 form {
+  margin-top: 5%;
+}
+
+.box2 label {
+  font-size: 1.5em;
+  font-family: sans-serif;
+  color: #114bfd;
+}
+
+.box2 h1 {
+  font-size: 3em;
+  font-family: "Courgette", cursive;
+  color: #114bfd;
+}
+
+.box2 ul li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.rooms {
+  margin-top: 5vh;
+}
+
+.rooms h2 {
+  color: #114bfd;
+  font-family: "Courgette", cursive;
+}
+
+.rooms ul li a {
+  text-decoration: none;
+  color: #24262c;
+  font-size: 20px;
+}
+
+.rooms ul li a:hover {
+  color: #114bfd;
+  transition-duration: 1s;
+}
+
+.container1 {
+  /* display: none; */
+}
+
+.container1 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.parent2 {
+  display: flex;
+  width: 200%;
+  background: rgb(187, 166, 166);
+  align-items: center;
+}
+
+@media screen and (max-width: 1424px) {
+  .container {
+    width: 90%;
+    margin: auto;
+    margin-top: 20vh;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .container {
+    display: none;
+  }
+}
